@@ -1,6 +1,6 @@
 USE northwind;
 
-Select * from customers;
+Select count(*) from customers;
 
 /* Select last_name from employees;
 
