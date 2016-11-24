@@ -2,7 +2,7 @@ USE northwind;
 
 Select * from customers;
 
-Select last_name from employees;
+/* Select last_name from employees;
 
 Select last_name, first_name
 from employees
@@ -14,4 +14,4 @@ where notes is NOT NULL;
 
 SELECT employees.first_name, orders.id 
 FROM employees 
-INNER JOIN orders ON employees.id = orders.employee_id;
+INNER JOIN orders ON employees.id = orders.employee_id; */
